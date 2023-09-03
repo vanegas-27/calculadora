@@ -39,6 +39,7 @@ body{
     font-size: 2em;
     margin-bottom: 20px;
     border-radius: 10px;
+    max-width: 232px;
 }
 
 .botones{
@@ -89,7 +90,7 @@ body{
 .container_num_0 span:nth-child(1):hover,
 .container_num_0 span:nth-child(2):hover,
 .container_num_0 span:nth-child(3):hover{
-    background-color:rgb(255, 255, 255) ;  
+    background-color:rgb(255, 255, 255) ;
 }
 
 /* .container_num_5{

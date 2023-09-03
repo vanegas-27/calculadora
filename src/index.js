@@ -102,7 +102,7 @@ function iniciar() {
 
 
 
-   
+
 
     //simbiolos
     const igual = document.querySelector('.igual')
@@ -117,7 +117,7 @@ function iniciar() {
     // uno.addEventListener()
 
     //llamar a modificar texto
-    
+
 
     borrar.addEventListener('click',operacion.limpiar)
     uno.addEventListener('click',operacion.submitNumber)
