@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 100vh;
+    background-image: url(../img/nn.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container_calculadora{
+    position: absolute;
+    background-color: hsla(0, 3%, 13%, 0.705);
+    width: auto;
+    height: auto;
+    top: 20%;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#texto{
+    background-color: rgba(0, 0, 0, 0.527);
+    color: white;
+    height: 60px;
+    max-height: 65px;
+    overflow: hidden;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.botones{
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    background-color: rgb(0, 0, 0);
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 1em;
+    color: rgba(255, 255, 255, 0.877);
+    transition: 0.50s;
+}
+
+.botones:hover{
+    background-color: hsla(0, 2%, 18%, 0.541);
+    box-shadow: 2px 2px 30px rgba(255, 255, 255, 0.247);
+    transition: 0.50s;
+    transform: scale(1.3);
+    color: white;
+}
+
+.container_num_0 span:nth-child(4),
+.container_num_1 span:nth-child(4),
+.container_num_2 span:nth-child(4),
+.container_num_3 span:nth-child(4),
+.container_num_4 span:nth-child(4){
+    background-color: rgba(255, 255, 0, 0.493);
+    color: black;
+}
+.container_num_0 span:nth-child(4):hover,
+.container_num_1 span:nth-child(4):hover,
+.container_num_2 span:nth-child(4):hover,
+.container_num_3 span:nth-child(4):hover,
+.container_num_4 span:nth-child(4):hover{
+    background-color: rgb(248, 244, 5) ;
+}
+
+.container_num_0 span:nth-child(1),
+.container_num_0 span:nth-child(2),
+.container_num_0 span:nth-child(3){
+    background-color: rgb(161, 161, 161);
+    color: black;
+}
+
+.container_num_0 span:nth-child(1):hover,
+.container_num_0 span:nth-child(2):hover,
+.container_num_0 span:nth-child(3):hover{
+    background-color:rgb(255, 255, 255) ;  
+}
+
+/* .container_num_5{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_num_5 span:nth-child(1){
+    width: 6.5em;
+} */
