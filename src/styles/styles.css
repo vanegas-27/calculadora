@@ -7,35 +7,37 @@
 body{
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.945);
     height: 100vh;
-    background-image: url(../img/nn.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 
+
 .container_calculadora{
     position: absolute;
-    background-color: hsla(0, 3%, 13%, 0.705);
+    background-color: hsla(240, 20%, 1%, 0.705);
     width: auto;
     height: auto;
     top: 20%;
     padding: 15px;
     border-radius: 20px;
+    border: 3px rgb(24, 24, 24) solid;
 }
 
 #texto{
-    background-color: rgba(0, 0, 0, 0.527);
+    position: relative;
+    background-color: rgba(54, 52, 52, 0.527);
     color: white;
-    height: 60px;
-    max-height: 65px;
+    height: 50px;
+    max-height: 100px;
     overflow: hidden;
-    padding: 15px;
+    padding: 10px;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: end;
     font-size: 2em;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -64,27 +66,25 @@ body{
     color: white;
 }
 
-.container_num_0 span:nth-child(4),
+.container_num_0 span:nth-child(3),
 .container_num_1 span:nth-child(4),
 .container_num_2 span:nth-child(4),
 .container_num_3 span:nth-child(4),
-.container_num_4 span:nth-child(4){
-    background-color: rgba(255, 255, 0, 0.493);
+.container_num_4 span:nth-child(3){
+    background-color: rgba(0, 6, 65, 0.788);
     color: black;
 }
 .container_num_0 span:nth-child(4):hover,
 .container_num_1 span:nth-child(4):hover,
 .container_num_2 span:nth-child(4):hover,
 .container_num_3 span:nth-child(4):hover,
-.container_num_4 span:nth-child(4):hover{
-    background-color: rgb(248, 244, 5) ;
+.container_num_4 span:nth-child(3):hover{
+    background-color: rgb(250, 250, 250) ;
 }
 
 .container_num_0 span:nth-child(1),
-.container_num_0 span:nth-child(2),
-.container_num_0 span:nth-child(3){
-    background-color: rgb(161, 161, 161);
-    color: black;
+.container_num_0 span:nth-child(2){
+    background-color: rgb(43, 42, 42);
 }
 
 .container_num_0 span:nth-child(1):hover,
@@ -93,11 +93,22 @@ body{
     background-color:rgb(255, 255, 255) ;
 }
 
-/* .container_num_5{
+.container_num_0{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container_num_0 span:nth-child(1){
+  width: 6.5em;
+}
+
+.container_num_4{
     display: flex;
     justify-content: space-between;
 }
 
-.container_num_5 span:nth-child(1){
+.container_num_4 span:nth-child(1){
     width: 6.5em;
-} */
+}
+
+

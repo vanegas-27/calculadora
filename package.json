@@ -1,0 +1,16 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "practica de HTML, CSS y JS para elaborar una calculadora totalmente funcional",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [
+    "calculadora",
+    "prueba tecnica",
+    "javaScript",
+    "HTML y CSS"
+  ],
+  "author": "Davinson vanegas <davidsonvanegas@gmail.com>",
+  "license": "MIT"
+}
